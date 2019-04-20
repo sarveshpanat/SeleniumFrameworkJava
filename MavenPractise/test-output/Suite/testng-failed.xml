@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="test2(failed)">
+    <classes>
+      <class name="testAutomation.Homepage">
+        <methods>
+          <include name="setDriver"/>
+          <include name="closeDriver"/>
+          <include name="baseNavigation" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- testAutomation.Homepage -->
+    </classes>
+  </test> <!-- test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->

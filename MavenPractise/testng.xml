@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+
+	<listener class-name="testAutomation.listeners"/>
+	<!--  <listener class-name="resources.ExtentReporterNG"/> -->
+</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="testAutomation.AddAddress"/>
+       </classes>
+       </test>
+       
+       <test name="test1">
+       <classes>
+       <class name="testAutomation.FooterLinkOpen"/>  
+       </classes>
+       </test>
+      
+      <test name="test2">
+      <classes>
+      <class name="testAutomation.Homepage"/>  
+      </classes>
+      </test>
+</suite> 
